@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section style start*/
+.header-section{
+    background-color: #022c2e;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.header-title{
+    font-size: 55px;
+    color: #d8d7d7;
+    line-height: normal;
+    margin-top: 160px;
+    margin-left: 155px;
+    font-weight: 800;
+    font-family: 'lato', sans-serif;
+    width: 450px;
+}
+.header-desciption{
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 155px;
+    width: 620px;
+    line-height: normal;
+    font-weight: 400;
+    color:#c0b7b799;
+}
+
+.header-img{
+    width: 420px;
+    height: 520px;
+    margin-top: 57px;
+    margin-right: 40px;
+}
+.btn-primary{
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color:#e55f7c;
+    margin-left: 155px;
+    margin-top: 25px;
+    border: none;
+    font-weight: bold;
+    color: #d8d7d7;
+}
+/* header section style end */
+
+/* feature side start */
+.feature{
+    margin-top: 100px;
+    height: 100vh;
+    text-align: center;
+}
+.feature-title{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    color: #000;
+    font-style:'Poppins', sans-serif; 
+    font-weight: bold;
+    
+}
+.feature-description{
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#27272799;
+    width: 510px;
+    height: 80px;
+    margin-left: 350px;
+    
+    
+}
+.feature-boxs{
+    display: flex;
+    margin-top: 10px;
+    gap: 25px;
+}
+.feature-box-1{
+    height: 350px;
+    width: 300px;
+    background-color: #c3edc054;
+    margin-left: 155px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.feature-box-2{
+    height: 350px;
+    width: 300px;
+    background-color: #ed9e0b38;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.feature-box-3{
+    height: 350px;
+    width: 300px;
+    background-color: #468b9737;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.feature-img{
+    height: 280px;
+    width: 200px;  
+    margin-top: 50px;
+}
+ .disabled-a{
+    pointer-events: none;
+    color: #272727;
+  
+}
+.feature-text{
+    margin-top: 40px;
+    
+}
+.feature-info{
+    width: 75%;
+    margin-left: 155px;
+    margin-top: 110px;
+    background-color: #c3edc062;
+    border-radius: 5px;
+    display: flex;
+    height: 160px;
+    padding-top: 10px;
+}
+/* info side */
+
+.info-text-1{
+    padding-top: 10px;
+    padding-left: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #272727a6;
+}
+.info-text-2{
+    padding-top: 10px;
+    padding-left: 90px;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
+    color: #272727a6;
+}
+.info-text-3{
+    padding-top: 10px;
+    padding-left: 90px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #272727a6;
+}
+.info-img{
+    padding-left: 82px;
+    padding-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+/* feature side end*/
+
+/* hot feal side strt */
+.hot-deal{
+    margin-top: 100px;
+    background-color: #c3edc062;
+    display: flex;
+    justify-content: space-around;
+    height: 85vh;
+  
+}
+.hot-deal-title{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    color: #000;
+    font-style:'Poppins', sans-serif; 
+    font-weight: bold;
+    padding-left: 115px;
+    padding-top: 200px;
+}
+.hot-deale-description{
+    width: 600px;
+    top: 30px;
+    margin-left: 150px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #27272799;
+   
+   
+}
+.hot-deal-tile-2{
+    color: #e55f7c;
+}
+
+.hot-deal-img{
+    margin-right: 100px;
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* hot feal side end */
+
+/* instagram side start*/
+.instagram{
+    margin-top: 90px;
+    width: 100%;
+     
+}
+.instagram-title{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    color: #000;
+    font-style:'Poppins', sans-serif; 
+    font-weight: bold;
+}
+.instagram-description{
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#27272799;
+    width: 510px;
+    height: 80px;
+    margin-left: 340px;
+    
+}
+
+.instagram-img img{
+    width: 200px;
+    height: 200px;
+   margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-radius: 5px;
+}
+
+
+/* instagram side end*/
+
+/* deal side start*/
+.deal-section{
+    width: 72%;
+    margin:0 auto;
+    height: 200px;
+    margin-top: 100px;
+    padding-top: 90px;
+    background: url('./images/Rectangle\ 9.png');
+    border-radius: 5px;
+}
+.deal-title{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    color: #000;
+    font-style:'Poppins', sans-serif; 
+    font-weight: bold;
+}
+.deal-description{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 400;
+    color:#27272799;
+    width: 510px;
+    height: 60px;
+    margin-left: 190px;
+}
+.input-deal-section{
+    height: 40px;
+    width: 450px;
+    border-radius: 5px;
+    padding-left: 4px;
+    font-size: 12px;
+    border: none;
+}
+.btn-primary-1{
+    margin-left: 20px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color:#e55f7c;
+    border: none;
+    font-weight: bold;
+    color: #d8d7d7;
+}
+/* footer side  start */
+.footer-container{
+    margin-top: 100px;
+    background-color: #022c2e;
+}
+
+.footer-title{
+padding-top: 80px;
+font-size: 35px;
+}
+.footer-description{
+    color: #c0b7b799;
+    width: 510px;
+    height: 80px;
+    margin-left: 350px;
+    font-size: 16px;
+    padding-top: 10px;
+   
+}
+.footer-title-2{
+color: #e55f7c;
+font-size: 40px;
+line-height: normal;
+font-weight: 800;
+}
+.footer-title{
+color: #d8d7d7
+}
+
+.footer-ending{
+    color: #c0b7b799;
+    font-size: 14px;
+   height: 50px;
+}
+
+
+/* footer side  end */
